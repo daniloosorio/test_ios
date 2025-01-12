@@ -14,11 +14,17 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world")
+            holi()
         }
         .padding()
     }
 }
 
+func holi (){
+    Image(systemName: "globe")
+        .imageScale(.large)
+        .foregroundStyle(.tint)
+}
 #Preview {
     ContentView()
 }
