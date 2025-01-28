@@ -17,7 +17,8 @@ var digimons = [
     Digimon(name:"Agumon"),
     Digimon(name:"Graymon"),
     Digimon(name:"Supermon"),
-    Digimon(name:"Supermon")
+    Digimon(name:"Supermon"),
+    Digimon(name:"doraemon")
 ]
 
 struct ListExample: View {
